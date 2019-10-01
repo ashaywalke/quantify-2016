@@ -194,4 +194,6 @@ dummy, X = dmatrices('dummy ~ side + date - 1', data=out, return_type='dataframe
 
 values = model.predict(X)
 
+return values
+
 # values are returned as an numpy ndarray and after careful addition in excel, the csv file is uploaded.
